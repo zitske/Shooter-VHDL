@@ -1,0 +1,3 @@
+vhdl work "disp.vhd"
+vhdl work "botao.vhd"
+vhdl work "main.vhd"

@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 cont.ngc cont.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cont_map.ncd cont.ngd cont.pcf 
+par -w -intstyle ise -ol high -mt off cont_map.ncd cont.ncd cont.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cont.twx cont.ncd -o cont.twr cont.pcf 
+bitgen -intstyle ise -f cont.ut cont.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc loc.ucf -p xc6slx16-csg324-3 cont.ngc cont.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cont_map.ncd cont.ngd cont.pcf 
+par -w -intstyle ise -ol high -mt off cont_map.ncd cont.ncd cont.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cont.twx cont.ncd -o cont.twr cont.pcf -ucf loc.ucf 
+bitgen -intstyle ise -f cont.ut cont.ncd 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc loc.ucf -p xc6slx16-csg324-3 cont.ngc cont.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cont_map.ncd cont.ngd cont.pcf 
+par -w -intstyle ise -ol high -mt off cont_map.ncd cont.ncd cont.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cont.twx cont.ncd -o cont.twr cont.pcf -ucf loc.ucf 
+bitgen -intstyle ise -f cont.ut cont.ncd 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc loc.ucf -p xc6slx16-csg324-3 cont.ngc cont.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cont_map.ncd cont.ngd cont.pcf 
+par -w -intstyle ise -ol high -mt off cont_map.ncd cont.ncd cont.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cont.twx cont.ncd -o cont.twr cont.pcf -ucf loc.ucf 
+bitgen -intstyle ise -f cont.ut cont.ncd 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc loc.ucf -p xc6slx16-csg324-3 cont.ngc cont.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cont_map.ncd cont.ngd cont.pcf 
+par -w -intstyle ise -ol high -mt off cont_map.ncd cont.ncd cont.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cont.twx cont.ncd -o cont.twr cont.pcf -ucf loc.ucf 
+bitgen -intstyle ise -f cont.ut cont.ncd 
+xst -intstyle ise -ifn "/home/aluno/Documents/trabalhofinal/cont.xst" -ofn "/home/aluno/Documents/trabalhofinal/cont.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc loc.ucf -p xc6slx16-csg324-3 cont.ngc cont.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cont_map.ncd cont.ngd cont.pcf 
+par -w -intstyle ise -ol high -mt off cont_map.ncd cont.ncd cont.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cont.twx cont.ncd -o cont.twr cont.pcf -ucf loc.ucf 

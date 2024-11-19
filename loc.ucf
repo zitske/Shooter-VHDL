@@ -1,0 +1,21 @@
+net d(0) loc = L14;
+net d(1) loc = N14;
+net d(2) loc = M14;
+net d(3) loc = U18;
+net d(4) loc = U17;
+net d(5) loc = T18;
+net d(6) loc = T17;
+
+net sel(0) loc = N16;
+net sel(1) loc = N15;
+net sel(2) loc = P18;
+net sel(3) loc = P17;
+
+net clk loc = V10;
+
+net bte loc = A8;
+net btm loc = B8;
+net btd loc = C9;
+net bts loc = C4;
+
+
